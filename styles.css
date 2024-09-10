@@ -5,6 +5,11 @@
 
 }
 
+body{
+    font-size: 15px;
+    
+}
+
 header{
     text-align: center;
     color: hsl(300, 43%, 22%);
