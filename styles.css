@@ -15,5 +15,9 @@ header{
     color: hsl(300, 43%, 22%);
 }
 
+.head{
+    margin: 1em auto;
+}
+
 
 
