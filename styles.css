@@ -10,6 +10,9 @@ body{
     font-family: "League Spartan", sans-serif;
 }
 
+
+/* header */
+
 header{
     text-align: center;
     color: hsl(300, 43%, 22%);
@@ -17,6 +20,11 @@ header{
 
 .head{
     margin: 1em auto;
+    max-width: 279px;
+}
+
+.hero h1{
+    font-size: 2.1em;
 }
 
 
