@@ -58,6 +58,11 @@ header{
 .section p{
     color: hsl(300, 43%, 22%);
     font-weight: bold;
+    margin-top: 0.5em;
+}
+
+svg{
+    margin-right: 0.3em;
 }
 
 
