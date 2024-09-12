@@ -17,14 +17,18 @@ header{
     text-align: center;
     color: hsl(300, 43%, 22%);
 }
-
+ 
 .head{
-    margin: 4em auto 1em auto;
+    margin: 1em auto;
     max-width: 279px;
 }
 
 .hero h1{
     font-size: 2.1em;
+}
+
+.hero{
+    margin: 4em auto 1em auto;
 }
 
 .subhero p{
