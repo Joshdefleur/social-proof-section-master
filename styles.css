@@ -18,9 +18,9 @@ header{
     color: hsl(300, 43%, 22%);
 }
  
-.head{
-    margin: 1em auto;
-    max-width: 279px;
+.subhero{
+    margin: 1em 2.7em;
+    padding: 0.5em;
 }
 
 .hero h1{
@@ -28,7 +28,7 @@ header{
 }
 
 .hero{
-    margin: 4em auto 1em auto;
+    margin: 4em 4em 1em 4em;
 }
 
 .subhero p{
@@ -44,16 +44,15 @@ header{
 
 .section{
     background-color: hsl(300, 24%, 96%);
-    margin: 0 auto 1em auto;
+    margin: 0 2.7em 1em 2.7em;
     text-align: center;
-    max-width: 279px;
     padding: 1em;
     border-radius: 5px;
 
 }
 
 .section:last-of-type{
-    margin: 0 auto 0 auto
+    margin: 0 2.7em
 }
 
 .section p{
@@ -64,7 +63,44 @@ header{
 
 /* buyer section */
 
+.buyers{
+    margin-bottom: 5em;
+}
 
+.customer{
+    margin: 0 2.7em 1em 2.7em;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.description{
+    color: white;
+}
+
+.profile{
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+img{
+    border-radius: 45px;
+    width: 2.5em;
+}
+
+.pname{
+    line-height: 1.2;
+}
+
+.pn{
+    color: white;
+}
+
+.pb{
+    color: hsl(333, 80%, 67%);
+}
 
 
 
