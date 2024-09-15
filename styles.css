@@ -207,4 +207,14 @@ img {
     .stars {
         margin-right: 1em;
     }
+
+    .roberts{
+        position: relative;
+        top: 1em;
+    }
+
+    .wallace{
+        position: relative;
+        top: 2em;
+    }
 }
