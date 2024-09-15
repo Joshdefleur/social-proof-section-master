@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-body{
+body {
     font-size: 15px;
     font-family: "League Spartan", sans-serif;
 }
@@ -13,36 +13,36 @@ body{
 
 /* header */
 
-header{
+header {
     text-align: center;
     color: hsl(300, 43%, 22%);
 }
- 
-.subhero{
+
+.subhero {
     margin: 1em 2.7em;
     padding: 0.5em;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 2.1em;
 }
 
-.hero{
+.hero {
     margin: 4em 4em 1em 4em;
 }
 
-.subhero p{
-    color:   hsl(303, 10%, 53%);
+.subhero p {
+    color: hsl(303, 10%, 53%);
 }
 
 
 /* review sections */
 
-.sections{
+.sections {
     margin-bottom: 2em;
 }
 
-.section{
+.section {
     background-color: hsl(300, 24%, 96%);
     margin: 0 2.7em 1em 2.7em;
     text-align: center;
@@ -51,99 +51,160 @@ header{
 
 }
 
-.section:last-of-type{
+.section:last-of-type {
     margin: 0 2.7em
 }
 
-.section p{
+.section p {
     color: hsl(300, 43%, 22%);
     font-weight: bold;
     margin-top: 0.5em;
 }
 
-svg{
+svg {
     margin-right: 0.3em;
 }
 
 
 /* buyer section */
 
-.buyers{
+.buyers {
     margin-bottom: 5em;
 }
 
-.customer{
+.customer {
     margin: 0 2.7em 1em 2.7em;
     background-color: hsl(300, 43%, 22%);
     border-radius: 5px;
     padding: 2em;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
-.description{
+.description {
     color: white;
 }
 
-.profile{
+.profile {
     margin-bottom: 2em;
     display: flex;
     align-items: center;
     gap: 2em;
 }
 
-img{
+img {
     border-radius: 45px;
     width: 2.5em;
 }
 
-.pname{
+.pname {
     line-height: 1.3;
 }
 
-.pn{
+.pn {
     color: white;
 }
 
-.pb{
+.pb {
     color: hsl(333, 80%, 67%);
 }
 
 
 /* Desktop */
 
-@media only screen and (min-width:784px){
-  
-    body{
+@media only screen and (min-width:939px) {
+
+    body {
         height: 100vh;
         display: flex;
         align-items: center;
+        margin: 0 2em;
     }
-  
-  
-    .page{
-    margin: 0 auto;
-    max-width: 1200px;
-   }
-   
-    .headsection{
+
+
+    .page {
+        margin: 0 auto;
+        max-width: 1010px;
+    }
+
+    .headsection {
         display: flex;
         margin-bottom: 5em;
     }
 
-    header{
+    header {
         flex: 1;
+        text-align: left;
+        padding-left: 0;
     }
 
-    .sections{
-        flex: 1;
+    .hero {
+        margin: 0 0 1.5em 0
     }
 
-    .buyers{
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .subhero {
+        margin: 0;
+        padding: 0;
+        line-height: 1.3;
+        padding-right: 8px;
+    }
+
+    .sections {
+        flex: 1.6;
+        margin-bottom: 0;
+        padding-top: 1.5em;
+    }
+
+    .buyers {
         display: flex;
         margin-bottom: 0;
+        gap: 2em;
     }
 
-    .customer{
+    .customer {
         flex: 1;
+        margin: 0;
+    }
+
+    .section {
+        display: flex;
+        align-items: center;
+        max-width: 63%;
+        justify-content: space-evenly;
+        margin: 0 0 1em 0;
+    }
+
+    .section:last-of-type {
+        margin: 0;
+    }
+
+    .section p {
+        margin-top: 0;
+    }
+
+    .review {
+        position: relative;
+        left: 9em;
+    }
+
+    .guru {
+        position: relative;
+        left: 12.6em;
+    }
+
+    .tech {
+        position: relative;
+        left: 15.3em;
+    }
+
+    svg {
+        margin-right: 0.5em;
+    }
+
+    .stars {
+        margin-right: 1em;
     }
 }
